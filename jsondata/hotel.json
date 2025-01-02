@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Oceanview Resort",
+    "location": "Miami, Florida",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1113560823442253330/original/fe905c46-4243-44bf-bd59-bc8b463326ea.jpeg?im_w=480",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1113560823442253330/original/0c7bca68-276a-490d-87d7-d204f2d19735.jpeg?im_w=240",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1113560823442253330/original/50468371-c5a4-4827-84b3-5091f84d7034.jpeg?im_w=240",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1113560823442253330/original/0f0fa575-2ab3-4c1e-a4ba-2b8401f9a505.jpeg?im_w=480",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1113560823442253330/original/d316a194-076f-4032-a5d5-fd96542a683f.jpeg?im_w=240"
+    ],
+    "price_per_night": 150,
+    "available_rooms": 10,
+    "max_guests": 4,
+    "beds": 2,
+    "bedrooms": 1,
+    "description": "A beautiful resort with stunning ocean views and top-notch amenities, perfect for a relaxing getaway."
+  },
+  {
+    "name": "Mountain Bliss Lodge",
+    "location": "Aspen, Colorado",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1095593584955712690/original/3e777b1d-29ef-465e-a2cd-010d6382ce59.jpeg?im_w=240",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1095593584955712690/original/bdc421f6-a745-4334-8485-7b471053819c.jpeg?im_w=240",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1095593584955712690/original/53edde70-e1dd-47f3-99ca-058806477b8e.jpeg?im_w=480",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1095593584955712690/original/36ba3fbf-8753-42bc-9906-8f1d968ff1ab.jpeg?im_w=240",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1095593584955712690/original/0f3e8cb8-700c-4d5b-bdb9-44effae79c10.jpeg?im_w=720"
+    ],
+    "price_per_night": 200,
+    "available_rooms": 5,
+    "max_guests": 6,
+    "beds": 3,
+    "bedrooms": 2,
+    "description": "A cozy lodge nestled in the mountains, offering breathtaking views and outdoor adventures."
+  },
+  {
+    "name": "Cityscape Hotel",
+    "location": "New York City, New York",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1133364402111191988/original/dc8b5127-351b-418b-afef-897f34569e4f.jpeg?im_w=240",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1133364402111191988/original/297fd939-f38c-4d72-a94a-cc53a85e5bd4.jpeg?im_w=240",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1133364402111191988/original/21396bf2-6eae-49dc-94c9-ecc93c86ee05.jpeg?im_w=480",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1133364402111191988/original/666f03f6-3caa-4d7b-876e-0d2f001bcaba.jpeg?im_w=480",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1133364402111191988/original/385a068b-0a94-4c22-b0d7-10badbea698c.jpeg?im_w=240"
+    ],
+    "price_per_night": 180,
+    "available_rooms": 15,
+    "max_guests": 3,
+    "beds": 1,
+    "bedrooms": 1,
+    "description": "Modern hotel located in the heart of the city, offering luxurious rooms and convenient access to top attractions."
+  },
+  {
+    "name": "Lakeside Cottage",
+    "location": "Lake Tahoe, California",
+    "images": [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1134181714576332581/original/11800eeb-9255-499e-bdb2-a95ef3523231.jpeg?im_w=480",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1134181714576332581/original/7961eb71-8a24-4fb4-b689-7fbb5c7b7ac0.jpeg?im_w=480",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1134181714576332581/original/ad449751-b46a-4f92-97b2-3c4a0971e423.jpeg?im_w=240",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1134181714576332581/original/6369ec30-32f0-45d2-8867-834cc49c1191.jpeg?im_w=240",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-1134181714576332581/original/ad449751-b46a-4f92-97b2-3c4a0971e423.jpeg?im_w=240"
+    ],
+    "price_per_night": 120,
+    "available_rooms": 8,
+    "max_guests": 5,
+    "beds": 2,
+    "bedrooms": 2,
+    "description": "Charming cottage by the lake, perfect for a peaceful retreat with family or friends."
+  },
+  {
+    "name": "Desert Oasis Hotel",
+    "location": "Phoenix, Arizona",
+    "images": [
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1096737554581311057/original/5561aa3c-8984-40d4-b4d4-1954c75a171f.jpeg?im_w=240",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1096737554581311057/original/c1345744-f4ba-4b14-97a3-924eab7455ec.jpeg?im_w=480",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1096737554581311057/original/32b726f8-0535-42f2-bb93-4a2c1f717cae.jpeg?im_w=240",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1096737554581311057/original/3987019d-5afa-4446-b1ae-18d8c7d694fd.jpeg?im_w=240",
+      "https://a0.muscache.com/im/pictures/hosting/Hosting-1096737554581311057/original/5d84149e-241e-429c-8d88-498dd0a10e0f.jpeg?im_w=240"
+    ],
+    "price_per_night": 130,
+    "available_rooms": 12,
+    "max_guests": 4,
+    "beds": 2,
+    "bedrooms": 1,
+    "description": "Experience tranquility in the desert with modern comforts and beautiful scenery."
+  }
+]
