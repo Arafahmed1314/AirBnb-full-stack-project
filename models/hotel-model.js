@@ -14,6 +14,4 @@ const HotelSchema = new Schema({
     timestamps: true, // Automatically adds createdAt and updatedAt fields
 });
 
-// Export the model (if it already exists, reuse it)
-// export default mongoose.models.Hotel || mongoose.model('hotels', HotelSchema);
 export const Hotel = mongoose.models.hotels ?? mongoose.model("hotels", HotelSchema);

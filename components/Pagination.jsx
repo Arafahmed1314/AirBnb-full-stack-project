@@ -1,56 +1,58 @@
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa"; // Font Awesome
-import { MdNavigateBefore, MdNavigateNext } from "react-icons/md"; // Material Design
-import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"; // Ant Design
-
-import Link from "next/link";
+"use client";
 import React from "react";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-export default function Pagination() {
+export default function Pagination({ totalPages, currentPage, onPageChange }) {
   return (
     <div className="mt-8 flex justify-center">
       <nav aria-label="Page navigation">
         <ul className="inline-flex items-center -space-x-px">
+          {/* Previous Button */}
           <li>
-            <Link
-              href="#"
-              className="block py-2 px-3 ml-0 leading-tight text-zinc-500 bg-white rounded-l-lg border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
+            <button
+              onClick={() => onPageChange(currentPage - 1)}
+              disabled={currentPage === 1}
+              className={`block py-2 px-3 ml-0 leading-tight ${
+                currentPage === 1
+                  ? "text-gray-400 bg-gray-200 cursor-not-allowed"
+                  : "text-zinc-500 bg-white hover:bg-zinc-100 hover:text-zinc-700"
+              } rounded-l-lg border border-zinc-300`}
             >
               <span className="sr-only">Previous</span>
               <FaArrowLeft />
-            </Link>
+            </button>
           </li>
+
+          {/* Page Numbers */}
+          {Array.from({ length: totalPages }, (_, index) => (
+            <li key={index + 1}>
+              <button
+                onClick={() => onPageChange(index + 1)}
+                className={`py-2 px-3 leading-tight ${
+                  currentPage === index + 1
+                    ? "text-white bg-blue-600"
+                    : "text-zinc-500 bg-white hover:bg-zinc-100 hover:text-zinc-700"
+                } border border-zinc-300`}
+              >
+                {index + 1}
+              </button>
+            </li>
+          ))}
+
+          {/* Next Button */}
           <li>
-            <Link
-              href="#"
-              className="py-2 px-3 leading-tight text-zinc-500 bg-white border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
-            >
-              1
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="#"
-              className="py-2 px-3 leading-tight text-zinc-500 bg-white border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
-            >
-              2
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="#"
-              className="py-2 px-3 leading-tight text-zinc-500 bg-white border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
-            >
-              3
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="#"
-              className="block py-2 px-3 leading-tight text-zinc-500 bg-white rounded-r-lg border border-zinc-300 hover:bg-zinc-100 hover:text-zinc-700"
+            <button
+              onClick={() => onPageChange(currentPage + 1)}
+              disabled={currentPage === totalPages}
+              className={`block py-2 px-3 leading-tight ${
+                currentPage === totalPages
+                  ? "text-gray-400 bg-gray-200 cursor-not-allowed"
+                  : "text-zinc-500 bg-white hover:bg-zinc-100 hover:text-zinc-700"
+              } rounded-r-lg border border-zinc-300`}
             >
               <span className="sr-only">Next</span>
               <FaArrowRight />
-            </Link>
+            </button>
           </li>
         </ul>
       </nav>

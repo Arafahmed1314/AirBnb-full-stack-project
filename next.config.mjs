@@ -12,6 +12,16 @@ const nextConfig = {
                 hostname: 'placehold.co',
 
             },
+            {
+                protocol: 'https',
+                hostname: 'a0.muscache.com',
+
+            },
+            {
+                protocol: 'https',
+                hostname: 'example.com',
+
+            },
         ],
     },
 };

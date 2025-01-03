@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 
 import HotelList from "@/components/hotelListing/HotelList";
-import Pagination from "@/components/Pagination";
+
 
 import { getHotels } from "@/utils/getHotels";
 
@@ -14,7 +14,6 @@ export default async function Home() {
     <>
 
       <HotelList />
-      <Pagination />
       <Footer />
     </>
   );
