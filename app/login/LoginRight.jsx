@@ -1,4 +1,5 @@
 import LoginForm from "@/components/auth/Login";
+import SocialLogin from "@/components/SocialLogin";
 import GoogleIcon from "@/components/svgIcon/GoogleIcon";
 import Link from "next/link";
 
@@ -11,10 +12,9 @@ export default function LoginRight() {
           <span className="text-purple-600">AirBnb</span>
         </h2>
         <h1 className="text-5xl font-bold mb-8">Sign in</h1>
-        <button className="w-full flex items-center justify-center border border-gray-300 rounded-full py-3 mb-3 hover:bg-gray-50 transition">
-          <GoogleIcon />
-          Continue with Google
-        </button>
+        {/* <button className="w-full flex items-center justify-center border border-gray-300 rounded-full py-3 mb-3 hover:bg-gray-50 transition"> */}
+        <SocialLogin />
+        {/* </button> */}
         <LoginForm />
 
         <div className="text-center mt-4">
